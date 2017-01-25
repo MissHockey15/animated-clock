@@ -12,6 +12,10 @@ html {
 
 .center {
   width: 28px;
+  position: absolute;
+  left: 50%;
+  top: 185px;
+  transform: translateX(-50%);
 }
 
 .hand {
@@ -19,9 +23,17 @@ html {
 }
 
 .hand-hour {
-
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  transform: translateX(-50%);
+  transform-origin: center bottom;
 }
 
 .hand-minute {
-
+  position: absolute;
+  left: 50%;
+  top: 125px;
+  transform: translateX(-50%);
+  transform-origin: center bottom;
 }
